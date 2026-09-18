@@ -1,0 +1,28 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "solana:nether_relic",
+      "menu_category": {
+        "category": "equipment",
+        "group": "itemGroup.name.helmet"
+      }
+    },
+    "components": {
+      "minecraft:display_name": {
+        "value": "Nether Relic"
+      },
+      "minecraft:icon": {
+        "texture": "nether_relic"
+      },
+      "minecraft:max_stack_size": 1,
+      "minecraft:wearable": {
+        "slot": "slot.armor.head",
+        "protection": 2
+      },
+      "minecraft:durability": {
+        "max_durability": 314
+      }
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "resource_pack_name": "solana",
+  "texture_name": "atlas.items",
+  "texture_data": {
+    "thor_axe": {
+      "textures": "textures/items/thor_axe"
+    },
+    "nether_relic": {
+      "textures": "textures/items/nether_relic"
+    },
+    "boot_relic": {
+      "textures": "textures/items/boot_relic"
+    },
+    "wing_relic": {
+      "textures": "textures/items/wing_relic"
+    },
+    "leg_relic": {
+      "textures": "textures/items/leg_relic"
+    }
+  }
+}

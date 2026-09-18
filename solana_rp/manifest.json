@@ -1,0 +1,17 @@
+{
+    "format_version": 2,
+    "header": {
+        "name": "Solana Mod RP",
+        "description": "Resource Pack for Solana Mod",
+        "uuid": "275ad0ca-4988-49b7-8c5d-9ce32ef66aca",
+        "version": [1, 0, 0],
+        "min_engine_version": [1, 20, 10]
+    },
+    "modules": [
+        {
+            "type": "resources",
+            "uuid": "217f02bd-a807-4a9f-83eb-8a8c74567cc3",
+            "version": [1, 0, 0]
+        }
+    ]
+}

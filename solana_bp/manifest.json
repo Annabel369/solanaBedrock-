@@ -1,0 +1,38 @@
+{
+    "format_version": 2,
+    "header": {
+        "name": "Solana Mod BP",
+        "description": "Behavior Pack for Solana Mod",
+        "uuid": "055f4db3-c09f-4e30-ad7d-6da174fdbe9e",
+        "version": [1, 0, 0],
+        "min_engine_version": [1, 20, 10]
+    },
+    "modules": [
+        {
+            "type": "data",
+            "uuid": "5839cb09-c1f1-43a2-bd89-79c08adea8fe",
+            "version": [1, 0, 0]
+        },
+        {
+            "type": "script",
+            "language": "javascript",
+            "uuid": "7a3536fc-ef7d-41a4-9e32-26210f0f8db7",
+            "entry": "scripts/main.js",
+            "version": [1, 0, 0]
+        }
+    ],
+    "dependencies": [
+        {
+            "uuid": "275ad0ca-4988-49b7-8c5d-9ce32ef66aca",
+            "version": [1, 0, 0]
+        },
+        {
+            "module_name": "@minecraft/server",
+            "version": "1.10.0"
+        },
+        {
+            "module_name": "@minecraft/server-net",
+            "version": "1.0.0-beta"
+        }
+    ]
+}

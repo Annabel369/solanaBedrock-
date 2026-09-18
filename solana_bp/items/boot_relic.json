@@ -1,0 +1,28 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "solana:boot_relic",
+      "menu_category": {
+        "category": "equipment",
+        "group": "itemGroup.name.boots"
+      }
+    },
+    "components": {
+      "minecraft:display_name": {
+        "value": "Boot Relic"
+      },
+      "minecraft:icon": {
+        "texture": "boot_relic"
+      },
+      "minecraft:max_stack_size": 1,
+      "minecraft:wearable": {
+        "slot": "slot.armor.feet",
+        "protection": 3
+      },
+      "minecraft:durability": {
+        "max_durability": 481
+      }
+    }
+  }
+}
