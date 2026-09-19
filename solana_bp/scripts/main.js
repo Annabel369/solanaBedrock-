@@ -20,7 +20,8 @@ const CONFIG = {
     }
 };
 
-const PREFIX = "/";
+//const PREFIX = "/";
+const PREFIX = "!";
 
 
 world.beforeEvents.chatSend.subscribe((event) => {
@@ -28,13 +29,19 @@ world.beforeEvents.chatSend.subscribe((event) => {
     const player = event.sender;
 
     if (message.startsWith(PREFIX)) {
-        event.cancel = true; // Impede a mensagem de aparecer no chat
-        const args = message.slice(PREFIX.length).trim().split(/\s+/);
-        const command = args.shift().toLowerCase();
+        // Cancela a mensagem no chat global
+        event.cancel = true; 
 
-        // system.run garante que o comando rode com segurança na thread do servidor
+        const args = message.slice(PREFIX.length).trim().split(/\s+/);
+        const command = args.shift()?.toLowerCase();
+
+        if (!command) return;
+
+        // Executa com segurança na próxima atualização de tick
         system.run(() => {
-            handleCommand(player, command, args);
+            handleCommand(player, command, args).catch((err) => {
+                console.error("Erro ao executar comando:", err);
+            });
         });
     }
 });
