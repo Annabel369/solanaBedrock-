@@ -1,6 +1,9 @@
 # solanaBedrock-
 Solana Bedrock (Add-on)!
 
+<img width="1911" height="1012" alt="image" src="https://github.com/user-attachments/assets/e703fd2b-a7f0-44d0-9b36-456a03d0cc6f" />
+
+
 Bedrock.
 
 Para instalar e testar o que fizemos, siga este passo a passo final:
